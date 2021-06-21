@@ -1,0 +1,61 @@
+/* THE NAME OF THIS FILE USES MD5 HASH */
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* DEFAULTS */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* ELEMENTS */
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+    user-select: none;
+}
+
+/* CLASSES */
+.custom-font-bangers {
+    font-family: 'Bangers' !important;
+    letter-spacing: 2px;
+}
+
+.custom-stickToTop {
+    top: 0;
+    position: sticky;
+}
+
+.custom-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.custom-btn, .custom-btn:hover {
+    box-shadow: none !important;
+}
+
+.custom-page-disabled {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -999999px;
+}
+
+.custom-page-enabled {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    position: static;
+    left: 0;
+}
+
+/* IDS */
