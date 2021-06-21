@@ -1,0 +1,3 @@
+<IfModule mod_headers.c>
+    Headder always append X-Iframe-Options SAMEORIGIN
+</IfModule>
